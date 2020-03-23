@@ -79,7 +79,7 @@
                             <outputDirectory>${project.basedir}/target/${project.build.finalName}/</outputDirectory>
                             <resources>
                                 <resource>
-                                    <directory>${basedir}/../config</directory>
+                                    <directory>/opt</directory>
                                     <includes>
                                         <include>keycloak.json</include>
                                     </includes>
