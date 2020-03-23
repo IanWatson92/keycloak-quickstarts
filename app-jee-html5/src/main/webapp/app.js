@@ -25,7 +25,7 @@ function notAuthenticated() {
 function authenticated() {
     document.getElementById('not-authenticated').style.display = 'none';
     document.getElementById('authenticated').style.display = 'block';
-    document.getElementById('message').innerHTML = 'User: ' + keycloak.tokenParsed['preferred_username'];
+    document.getElementById('message').innerHTML = 'Token: '+ keycloak.token + 'User: ' + keycloak.tokenParsed['preferred_username'];
 }
 
 function request(endpoint) {
