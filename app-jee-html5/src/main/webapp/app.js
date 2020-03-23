@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 var keycloak = new Keycloak();
-var serviceUrl = 'http://127.0.0.1:8080/service'
+var serviceUrl = 'http://nodejs-keycloak-nodejs.ianwatson-8e403d02da27f23cda259248b817e83d-0001.eu-gb.containers.appdomain.cloud/service'
 
 function notAuthenticated() {
     document.getElementById('not-authenticated').style.display = 'block';
