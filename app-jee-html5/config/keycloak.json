@@ -2,7 +2,7 @@
   "realm": "quickstart",
   "auth-server-url": "https://sso-keycloak.ianwatson-8e403d02da27f23cda259248b817e83d-0001.eu-gb.containers.appdomain.cloud/auth",
   "ssl-required": "external",
-  "resource": "app-html5",
+  "resource": "admin-cli2",
   "public-client": true,
   "confidential-port": 0
 }
